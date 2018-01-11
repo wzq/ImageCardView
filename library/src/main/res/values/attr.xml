@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageCardView">
+        <attr name="ic_border" format="color|reference" />
+        <attr name="ic_showBottom" format="boolean" />
+        <attr name="ic_light_duration" format="integer" />
+        <attr name="ic_is_light" format="boolean" />
+        <attr name="ic_img" format="reference" />
+    </declare-styleable>
+</resources>
