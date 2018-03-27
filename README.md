@@ -1,2 +1,3 @@
 # ImageCardView
-android tv item view 
+android tv item view   
+![show](show.gif)
