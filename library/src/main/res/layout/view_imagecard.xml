@@ -11,22 +11,20 @@
         android:layout_height="match_parent"
         android:scaleType="fitXY"/>
 
-
     <TextView
         android:id="@+id/ic_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginRight="26dp"
-        android:layout_weight="1"
-        android:background="@drawable/bg_mask_black"
+        android:background="#84000000"
         android:ellipsize="marquee"
         android:fadingEdge="horizontal"
         android:focusable="true"
         android:gravity="center_vertical"
         android:marqueeRepeatLimit="marquee_forever"
         android:paddingBottom="6dp"
-        android:paddingLeft="9dp"
+        android:paddingEnd="9dp"
+        android:paddingStart="9dp"
         android:paddingTop="6dp"
         android:scrollHorizontally="true"
         android:singleLine="true"

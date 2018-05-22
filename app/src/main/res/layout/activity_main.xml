@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FF3D3939"
+    android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <com.wzq.cardview.ImageCardView
+        android:id="@+id/img1"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <com.wzq.cardview.ImageCardView
+        android:id="@+id/img2"
+        android:layout_marginStart="20dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:ic_showBottom="true"/>
+
+</LinearLayout>
